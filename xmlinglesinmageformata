@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Inglêskids.pcor"
+             Title="cores" BackgroundColor="Violet" >
+    <ContentPage.Content >
+        <ScrollView>
+            <StackLayout>
+                
+                
+                
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://www.mulherportuguesa.com/wp-content/uploads/2016/10/Significado-da-cor-preto.jpg"/>
+                    <StackLayout>
+                        
+                    
+                    <Label Text="ingles: BLACK" VerticalOptions="EndAndExpand"/>
+                    <Label Text="porgues: PRETO" VerticalOptions="StartAndExpand"/>
+                        </StackLayout>
+             </StackLayout>
+            
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://static.significados.com.br/foto/f3f2-cor-marrom-castanho.jpg"/>
+                    <StackLayout>
+
+
+                        <Label Text="ingles: BROW" VerticalOptions="EndAndExpand"/>
+                        <Label Text="porgues: MARROM" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Red_flag.svg/1280px-Red_flag.svg.png"/>
+                    <StackLayout>
+
+
+                        <Label Text="ingles: RED" VerticalOptions="EndAndExpand"/>
+                        <Label Text="porgues: vermelho" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="https://htmlcolorcodes.com/assets/images/colors/bright-blue-color-solid-background-1920x1080.png"/>
+                    <StackLayout>
+
+
+                        <Label Text="ingles: BLUE" VerticalOptions="EndAndExpand"/>
+                        <Label Text="porgues: azul" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+
+
+            </StackLayout>
+            
+            
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
