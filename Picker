@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Picker.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="etval" Keyboard="Numeric" Placeholder="informe"/>
+
+        <Picker x:Name="pkop" Title="selecione">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>primo</x:String>
+                    <x:String>par</x:String>
+                    <x:String>impa</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button x:Name="btver" Text="verifica" Clicked="btver_Clicked"/>
+        <Label x:Name="lbres" Text="res"/>
+    </StackLayout>
+
+</ContentPage>
