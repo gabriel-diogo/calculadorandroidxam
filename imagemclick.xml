@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestureRecognizer_webview.MainPage">
+
+    <StackLayout>
+        <Image x:Name="s1" Source="https://i.pcmag.com/imagery/reviews/01VPJmabQwRX0zIz0X7hOih-1.fit_scale.size_760x427.v1629924092.jpg">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="OnTapGestureRecognizer_Tapped"
+                    NumberOfTapsRequired="1"/>
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image x:Name="s2" Source="https://upload.wikimedia.org/wikipedia/commons/a/a3/History2Logo2019.png">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="OnTapGestureRecognizer_Tapped2"
+                    NumberOfTapsRequired="1"/>
+            </Image.GestureRecognizers>
+        </Image>
+        <Image x:Name="s3" Source="https://w7.pngwing.com/pngs/292/238/png-transparent-logo-discovery-channel-discovery-inc-graphics-mtv-hits-idents-text-logo-area.png">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="OnTapGestureRecognizer_Tapped3"
+                    NumberOfTapsRequired="1"/>
+            </Image.GestureRecognizers>
+        </Image>
+
+    </StackLayout>
+
+</ContentPage>
